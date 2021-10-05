@@ -26,6 +26,9 @@ const LogReducer = (state = initialState, action) => {
                 return elem.id !== action.payload
             })
 
+        default:
+            return state;
+
 
     }
 }
