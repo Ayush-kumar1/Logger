@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #39445a; */
+    height: 5rem;
+    background: #7952B3;
+    font-size: 2vw;
+    padding-bottom: 15px;
+    /* color: white; */
+    z-index: 99;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 1px 5px black;
+}
+
+.navbar-btn {
+    width: 1rem;
+    font-size: 0.6rem;
+    height: 3rem;
+    margin: 2rem;
+}
+
+.logo {
+    font-size: 3rem;
+    margin: 1rem;
+    /* margin-bottom: 1rem; */
+}
