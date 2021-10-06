@@ -4,15 +4,15 @@ import TableCard from "./TableCard";
 
 function Table() {
   let arr = [
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
-    { name: "Ayush", age: "22", profession: "Software Developer", sex: "male" },
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"},
+    { name: "Ayush", age: "22", profession: "Software Developer"}, 
   ];
 
   return (
@@ -22,7 +22,7 @@ function Table() {
           name={elem.name}
           age={elem.age}
           profession={elem.profession}
-          sex={elem.sex}
+          
         />
       ))}
     </div>

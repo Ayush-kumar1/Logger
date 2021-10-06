@@ -1,12 +1,9 @@
-import React from "react";
-import "./createpost.css";
-import { Input } from "@mui/material";
-import { Button } from "@mui/material";
-
-function CreatePost() {
-  return (
-    <div>
-      <div style={{ paddingTop: "9rem" }}>
+import React from 'react'
+import "./updatepost.css";
+function UpdatePost() {
+    return (
+        <div>
+            <div style={{ paddingTop: "9rem" }}>
         <div className="media_card-createpost"> 
           <h1 className="brand-logo" style={{ margin: "0 auto" }}>
             Logo
@@ -23,13 +20,13 @@ function CreatePost() {
               color="secondary"
               style={{ width: "9rem", margin: "0px auto" }}
             >
-              Submit post
+              Update post
             </Button>
           </div>
         </div>
       </div>
-    </div>
-  );
+        </div>
+    )
 }
 
-export default CreatePost;
+export default UpdatePost
